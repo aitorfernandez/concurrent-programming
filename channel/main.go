@@ -1,5 +1,9 @@
 package main
 
+// To remember
+// ch <- v    // Send v to channel ch.
+// v := <-ch  // Receive from ch, and assign value to v.
+
 import "fmt"
 
 type Sender struct {
